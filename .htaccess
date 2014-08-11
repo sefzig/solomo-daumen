@@ -1,0 +1,14 @@
+RewriteEngine On
+RewriteBase /daumen
+
+# Weiche: QR Codes
+RewriteCond %{REQUEST_URI} qrcode
+RewriteRule ^([a-zA-Z0-9]*)/.qrcode$ http://chart.apis.google.com/chart?cht=qr&chs=500x500&chld=L&choe=UTF-8&chl=http://sefzig.net/solomo/daumen/$1/ [NC]
+
+# Rewrite Parameter: Kurzlink-ID
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-l
+RewriteRule ^([a-zA-Z0-9]*)$ http://sefzig.net/solomo/daumen/?i=$1 [QSA,L]
+RewriteRule ^([a-zA-Z0-9]*)/$ http://sefzig.net/solomo/daumen/?i=$1 [QSA,L]
+# [P,NC,L]

@@ -1,0 +1,45 @@
+-- phpMyAdmin SQL Dump
+-- version 3.3.7deb7
+-- http://www.phpmyadmin.net
+--
+-- Host: localhost
+-- Erstellungszeit: 11. August 2014 um 11:21
+-- Server Version: 5.1.73
+-- PHP-Version: 5.3.3-7+squeeze19
+
+SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8 */;
+
+--
+-- Datenbank: `solomoadc`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Tabellenstruktur für Tabelle `voting_count`
+--
+
+DROP TABLE IF EXISTS `voting_count`;
+CREATE TABLE IF NOT EXISTS `voting_count` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `unique_content_id` varchar(100) NOT NULL,
+  `arbeit` varchar(255) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
+  `vote_up` int(11) NOT NULL,
+  `vote_down` int(11) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=MyISAM  DEFAULT CHARSET=utf8 AUTO_INCREMENT=60 ;
+
+--
+-- Daten für Tabelle `voting_count`
+--
+
+INSERT INTO `voting_count` (`id`, `unique_content_id`, `arbeit`, `vote_up`, `vote_down`) VALUES
+(1, '1', 'Test1', 1, 3),
+(2, '2', 'Test2', 2, 2),
+(3, '3', 'Test3', 3, 1);
