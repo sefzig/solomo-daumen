@@ -25,3 +25,7 @@ oder
 <pre>
 http://sefzig.net/solomo/daumen/*/.qrcode
 </pre>
+
+## Einrichtung
+
+* Das Verzeichnis "daten" muss chmod777 sein.
