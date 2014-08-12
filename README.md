@@ -3,13 +3,13 @@ Solomo Daumen
 
 Mobile Anwendung mit Daumen-hoch/runter-Funktion und Balken-Diagramm. 
 Lokale Einbindung kann mit URL-Parametern vorkonfiguriert werden. 
-Cookies: Jeder Browser kann nur ein Mal abstimmen. 
-".qrcode" am Ende einer URL erzeugt einen entsprechenden QR Code.
+Cookies: Jeder Browser kann nur ein Mal abstimmen. Code mit [.qrcode](http://sefzig.net/solomo/daumen/gh/.qrcode).
 
 [Solomo-Funktionen](https://github.com/sefzig/solomo/blob/master/README.md) 
 * [solomo-chat](https://github.com/sefzig/solomo-chat/blob/master/README.md) 
 * [solomo-daumen](https://github.com/sefzig/solomo-daumen/blob/master/README.md) 
 * [solomo-druck](https://github.com/sefzig/solomo-druck/blob/master/README.md) 
+* [solomo-konfig](https://github.com/sefzig/solomo-konfig/blob/master/README.md) 
 
 Links
 * [Demo mit Sitzungs-ID "gh"](http://sefzig.net/solomo/daumen/gh/)
