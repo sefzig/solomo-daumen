@@ -34,6 +34,8 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black" />
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <!-- Stylesheets -->
+    <link rel="stylesheet" href="<?=$root?>../solomo/css/_solomo.css" type="text/css">
+    <link rel="stylesheet" href="<?=$root?>../solomo/css/default.css" type="text/css">
     <link rel="stylesheet" href="<?=$root?>css/index.css" type="text/css">
     <style></style>
     <!-- Javascript -->
@@ -45,8 +47,7 @@
   <body>
     <div id="umschliessung">
       <div id="kopf">
-        <h1>Solomo<br />Daumen<br />0.1</h1>
-        <img src="img/kopf.png" border="0" />
+        <h1>Solomo Daumen</h1>
       </div>
       <div class="voting_wrapper" id="<?=$daumen?>">
         <table width="100%" height="100%" cellspacing="0" cellpadding="0" border="0"><tr><td width="100%" height="100%" align="center" valign="center">
