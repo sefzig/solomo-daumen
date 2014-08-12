@@ -1,5 +1,5 @@
 RewriteEngine On
-RewriteBase /daumen
+RewriteBase /solomo-daumen
 
 # Weiche: QR Codes
 RewriteCond %{REQUEST_URI} qrcode
