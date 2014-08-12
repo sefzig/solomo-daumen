@@ -28,4 +28,4 @@ http://sefzig.net/solomo/daumen/*/.qrcode
 
 ## Einrichtung
 
-* Das Verzeichnis "daten" muss chmod777 sein.
+* Mysql-Datenbank notwendig. Import in "php/mysql.txt", Konfig in "php/daumen.php".
